@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sql-production
+    name: render-test-sql-production
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
